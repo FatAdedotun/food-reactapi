@@ -42,7 +42,7 @@
 
 .app__recipes {
   display: grid;
-  grid-template-columns: 230px 230px 230px 230px;
+  grid-template-columns: 250px 250px 250px 250px;
   align-items: baseline;
 }
 
@@ -70,6 +70,10 @@
 
 
 @media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
   .app__input {
     min-width: 280px;
     margin-bottom: 10px;
@@ -81,5 +85,22 @@
 
   .FooterText p {
     padding: 10px 0;
+  }
+
+  .app__submit {
+    padding: 6px 16px;
+    font-size: 15px;
+    margin-left: 8px;
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .app__healthLabels {
+    padding: 7px 8px;
+    margin-left: 6px;
+    border-radius: 4px;
   }
 }

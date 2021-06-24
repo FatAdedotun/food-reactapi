@@ -59,7 +59,6 @@ function App() {
           return <RecipeTiles recipe={recipe}/>
         })}
       </div>
-
       <div className="FooterText">
         <p><a href="https://fatadedotun.netlify.app/">Adedotun Fatokun.</a> All rights reserved &copy; 2021.</p>
       </div>

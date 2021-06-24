@@ -70,8 +70,13 @@
 
 
 @media screen and (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
+  .app h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .app__searchForm {
+    margin-top: 10px;
   }
 
   .app__input {
